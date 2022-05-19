@@ -1,0 +1,64 @@
+.header-section{
+    background-color: #b91450;
+    color: white;
+    padding: 30px 0px;
+}
+
+.title{
+    text-align: center;
+}
+
+.main-section{
+    background-color: #b91450;
+    padding: 20px 0px
+}
+
+.card-contain{
+    background-color: white;
+    padding: 20px 0px;
+    border: solid 2px white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 20px 0px black;
+}
+
+.data-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px
+}
+
+.data-section-button{
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px
+}
+
+/*----------------SECONDA CARD----------------*/
+
+.name-passeggero{
+    background-color: #585858;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-2{
+    justify-content: center;
+    color: white;
+}
+
+.data-sectio-2{
+    border-top: solid;
+    border-bottom: solid;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.info-biglietto-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+}
