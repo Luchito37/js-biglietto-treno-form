@@ -15,13 +15,11 @@ const scontoAnziani = "0.4";
 //prezzoBiglietto - ( prezzoBiglietto * scontoAnziani )
 
 
-/* se la persona ha meno di 18 anni applica sconto */
 
 if(selectOption === "minorenne"){
     prezzoBiglietto = prezzoBiglietto - ( prezzoBiglietto * scontoGiovani )
-    console.log("giovane!", selectOption)
 }
-if(selectOption === "over 65"){
+if(selectOption === "over-65"){
     prezzoBiglietto = prezzoBiglietto - ( prezzoBiglietto * scontoAnziani )
 }
 
@@ -39,11 +37,8 @@ spanNomeCognomeUtente.innerHTML = `<strong class="text-danger">
                                     <small class="text-dark">${inputName}</small>
                                 </strongs>`;
 
-/*
-la funzione addEventListener si aspetta di ricevere tra parentesi, 2 argomenti:
-il primo argomento (valore) è il nome dell'evento che si vuole ascoltare (click)
-- il secondo argomento (valore) è la funzione che si vuole eseguire quando l'evento viene generatol
-*/
+
+
 submitButton. addEventListener ("click", function () {
     // Questo codice verrà eseguito SOLO quando l'utente clicca sul pulsante submitButton
     console. log(inputName. value, inputkmDistance. value, selectOption. value);
